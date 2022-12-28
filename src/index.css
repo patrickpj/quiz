@@ -115,7 +115,52 @@ color: #293264;
   font-size: 16px;
   color: #293264;
   cursor: pointer;
+  text-overflow: none;
+  overflow: hidden;
 }
-.answer button:active {
+
+.selected{
+  background-color: #D6DBF5;
+}
+
+.correct{
+  background-color: #94D7A2;
+  border-color: #94D7A2;
+}
+.incorrect{
+  background-color: #F8BCBC;
+  border-color:#F8BCBC;
+}
+
+.check,
+.restart{
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  margin-top: 1em;
+  border: none;
+  align-self: center;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+}
+.result {
+  align-self: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+}
+.score {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #293264;
+  
+}
+
+
+/* .answer button:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
-}
+} */
